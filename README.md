@@ -292,4 +292,5 @@ var value: Int {
 4. 폴더 그룹핑 및 공통으로 쓰는 코드 분리 
     - 현재 RockPaperScissorsGame타입 안에 있는 User, Computer, UserInterface 프로퍼티의 경우 값타입인 struct 타입이기 때문에 class로 진행할 이유가 없음.
 5. print 관련 메서드들을 UserInterface로 분리하여 관리
-
+6.  User가 인풋을 GameOption으로 네이밍 수정
+7. if 문 조건을 switch와 튜플의 조건으로 변경 해서 케이스명시하면서 가독성 좋게 구현
